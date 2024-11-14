@@ -1,0 +1,17 @@
+.box{display: inline-block;
+
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    transition-duration: 100ms;
+    transition-property: background-color border;
+    margin: 4px;
+
+}
+.box:hover{
+    border-radius: 75%;
+    background-color: crimson;
+}
+*{
+    margin: 0;
+}

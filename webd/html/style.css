@@ -1,0 +1,16 @@
+h1{
+    color: blueviolet;
+}
+#para{
+    background-color: rgb(150, 218, 60);
+}
+.par{
+    color: aqua;
+}
+input[type="text"]{
+    background-color: rgb(166, 89, 194);
+    color: blue;
+}
+*{
+    border: 2px solid black;
+}

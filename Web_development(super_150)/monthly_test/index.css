@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+#section1{
+    background-color: burlywood;
+    width:100%;
+    height: 50px;
+    position: fixed;
+
+}
+#section1 h1{
+    padding: 10px;
+    color: crimson;
+}
+#section2{
+    border-radius: 2px;
+    background-color: rgb(217, 167, 214);
+    
+    
+
+}
+#section2 h1{
+    color: rgb(8, 53, 38);
+
+
+}
+#section2 h6{
+    color: rgb(29, 4, 141);
+}

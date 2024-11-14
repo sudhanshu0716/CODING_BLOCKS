@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>for_in</h1>
+
+    <script>
+        let obj={
+            naam:"kaaju",
+            age:1,
+            papa:"bada papa"
+        }
+        for(let i in obj){
+            console.log(i);
+            console.log(obj[i]);
+        }
+        console.log(obj.naam);
+        // console.log(obj[naam]);
+        console.log(obj["naam"]);//key as a string store hoti hai
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+li{
+    border: 5px solid red;
+    list-style: square;
+    list-style-position: outside;
+    border-style: dashed;
+}
+div{
+    border: 5px solid blue;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-right: 3px;
+}

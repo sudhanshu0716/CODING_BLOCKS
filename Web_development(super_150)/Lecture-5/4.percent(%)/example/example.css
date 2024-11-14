@@ -1,0 +1,9 @@
+section
+{
+    width: 500px;
+    background-color: red;
+}
+div{
+    width: 50%;
+    background-color: aqua;
+}

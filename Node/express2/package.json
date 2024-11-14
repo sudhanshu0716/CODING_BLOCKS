@@ -1,0 +1,22 @@
+{
+  
+  "scripts": {
+  
+    
+  "start": "nodemon index.js"
+  
+  },
+  
+  "dependencies": {
+  
+    
+  "ejs": "^3.1.10",
+  
+    
+  "express": "^4.21.1",
+  
+    
+  "nodemon": "^3.1.7"
+  
+  }
+}

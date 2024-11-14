@@ -1,0 +1,15 @@
+ul>li{
+    font-size:150% ;
+}
+section{
+    width: 500px;
+    background-color: aquamarine;
+    width:50vh;
+    height:50vw;
+    height:900px;
+}
+div{
+    width: 200px;
+    height: 900px;
+    background-color: indianred;
+}

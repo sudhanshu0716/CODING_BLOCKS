@@ -1,0 +1,7 @@
+ul>li{
+    color:red;
+    font-size: 25px;
+    border: 2px solid green;
+}
+/*so in inhertitence concept only color and font size here gets inherited but
+ border dont so there are only certain properties in css that get inherited while rest are not inherited downwards */

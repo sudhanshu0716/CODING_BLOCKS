@@ -1,0 +1,26 @@
+#reset1{
+    background-color: red;
+    color: rgb(0, 0, 0);
+}
+#submit1{
+    background-color: green;
+    color: rgb(0, 0, 0);
+}
+form{
+    background-color: darkseagreen;
+}
+h1{
+    color: rgb(0, 0, 159);
+}
+input:hover{
+    color: black;
+    background-color: lightcoral;
+}
+input:active{
+    color: blueviolet;
+    background-color: hotpink;
+}
+h1:hover{
+    color:green
+    
+}

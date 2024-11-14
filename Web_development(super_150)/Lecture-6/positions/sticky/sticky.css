@@ -1,0 +1,18 @@
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+section{
+    border: 2px solid green;
+}
+#sticky {
+    height: 600px;
+}
+#sticky #middle
+{
+    position:sticky;
+    top:10px;
+}

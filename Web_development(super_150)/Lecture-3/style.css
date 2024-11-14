@@ -1,0 +1,29 @@
+/* basic selectors */
+/* --------------- */
+/*element selector*/
+h1
+{
+    color: red;
+}
+/*id selector*/
+#pg
+{
+    background-color: violet;
+}
+/*class selctor*/
+.p
+{
+    font-size: 10px;
+    background-color: greenyellow;
+}
+/*attribute selctor*/
+input[type="text"]
+{
+    background-color: tomato;
+    color: greenyellow;
+}
+/* universal selector*/
+*
+{
+     border: 2px solid black; 
+}

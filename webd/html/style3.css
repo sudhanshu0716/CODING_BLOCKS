@@ -1,0 +1,38 @@
+h2{
+    color: aqua;
+}
+h2:hover{
+    color: brown;
+}
+input{
+    background-color: darkcyan;
+}
+input:focus{
+    background-color: chartreuse;
+}
+a{
+    color: crimson;
+}
+a:active{
+    color: cyan;
+}
+a:visited{
+    color: darkorange;
+}
+h1::after{
+    content: "hello gla ";
+
+}
+h1::before{
+    content: "lets study";
+}
+p::first-line{
+    text-transform: uppercase;
+}
+p::first-letter{
+    color: crimson;
+    font-size: 30px;
+}
+p::before{
+    content:'\1F494';
+}

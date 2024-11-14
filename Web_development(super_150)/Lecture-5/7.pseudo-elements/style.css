@@ -1,0 +1,18 @@
+h1::after
+{
+    content: "hello gla lets study";
+}
+/* h1::before
+{
+    content:"\1F494";
+} */
+/* p::first-line
+{
+    background-color: aquamarine;
+    text-transform: uppercase;
+}
+p::first-letter
+{
+    color: yellow;
+    font-size: 60px;
+} */

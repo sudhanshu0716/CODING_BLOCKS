@@ -1,0 +1,184 @@
+Container(
+  width: 1728,
+  height: 1117,
+  clipBehavior: Clip.antiAlias,
+  decoration: BoxDecoration(color: Colors.white),
+  child: Stack(
+    children: [
+      Positioned(
+        left: 757,
+        top: 122,
+        child: Container(
+          width: 676,
+          height: 898,
+          decoration: BoxDecoration(
+            color: Color(0xFFD9D9D9),
+            boxShadow: [
+              BoxShadow(
+                color: Color(0xFF000000),
+                blurRadius: 20,
+                offset: Offset(0, 4),
+                spreadRadius: 2,
+              )
+            ],
+          ),
+        ),
+      ),
+      Positioned(
+        left: 848,
+        top: 490,
+        child: Container(
+          width: 524,
+          height: 81,
+          decoration: ShapeDecoration(
+            color: Color(0xFFD9D9D9),
+            shape: RoundedRectangleBorder(side: BorderSide(width: 1)),
+          ),
+        ),
+      ),
+      Positioned(
+        left: 848,
+        top: 354,
+        child: Container(
+          width: 524,
+          height: 81,
+          decoration: ShapeDecoration(
+            color: Color(0xFFD9D9D9),
+            shape: RoundedRectangleBorder(side: BorderSide(width: 1)),
+          ),
+        ),
+      ),
+      Positioned(
+        left: 848,
+        top: 238,
+        child: SizedBox(
+          width: 493,
+          child: Text(
+            'LOGIN',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 64,
+              fontFamily: 'Aclonica',
+              fontWeight: FontWeight.w400,
+              height: 0,
+            ),
+          ),
+        ),
+      ),
+      Positioned(
+        left: 867,
+        top: 378,
+        child: SizedBox(
+          width: 505,
+          height: 45,
+          child: Text(
+            'Email or Phone',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 40,
+              fontFamily: 'Acme',
+              fontWeight: FontWeight.w400,
+              height: 0,
+            ),
+          ),
+        ),
+      ),
+      Positioned(
+        left: 867,
+        top: 514,
+        child: SizedBox(
+          width: 439,
+          height: 45,
+          child: Text(
+            'Password',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 40,
+              fontFamily: 'Acme',
+              fontWeight: FontWeight.w400,
+              height: 0,
+            ),
+          ),
+        ),
+      ),
+      Positioned(
+        left: 848,
+        top: 650,
+        child: SizedBox(
+          width: 309,
+          height: 39,
+          child: Text(
+            'forgot password?\n',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 32,
+              fontFamily: 'Acme',
+              fontWeight: FontWeight.w400,
+              height: 0,
+            ),
+          ),
+        ),
+      ),
+      Positioned(
+        left: 848,
+        top: 732,
+        child: Container(
+          width: 524,
+          height: 90,
+          decoration: ShapeDecoration(
+            color: Color(0xFF0049B7),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(200),
+            ),
+          ),
+        ),
+      ),
+      Positioned(
+        left: 1061,
+        top: 757,
+        child: SizedBox(
+          width: 338,
+          height: 40,
+          child: Text(
+            'Sign in',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 40,
+              fontFamily: 'Acme',
+              fontWeight: FontWeight.w400,
+              height: 0,
+            ),
+          ),
+        ),
+      ),
+      Positioned(
+        left: 0,
+        top: 31,
+        child: Container(
+          width: 339,
+          height: 243,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: NetworkImage("https://via.placeholder.com/339x243"),
+              fit: BoxFit.fill,
+            ),
+          ),
+        ),
+      ),
+    ],
+  ),
+),
+SizedBox(
+  width: 925,
+  height: 315,
+  child: Text(
+    'ALEX  SHOES',
+    style: TextStyle(
+      color: Colors.black,
+      fontSize: 64,
+      fontFamily: 'Ink Free',
+      fontWeight: FontWeight.w400,
+      height: 0,
+    ),
+  ),
+)

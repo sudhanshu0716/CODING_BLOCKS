@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Pokemon Search</h1>
+    <div class="search">
+        <input type="text" id="inputdedo" placeholder="Enter Name">
+        <button onclick="pokedata()">Search</button>
+    </div>
+    <div class="details" id="pokemon-details">
+    </div>
+</div>
+<script>
+    const apiUrl = 'https://pokeapi.co/api/v2/';
+    function pokedata(){
+        const inputdedo=document.getElementById('inputdedo').value.trim();
+        if (inputdedo==='') {
+            alert('Please enter a Pokémon ID or name');
+            return;
+        }
+        fetch(`${apiUrl}pokemon/${inputdedo.toLowerCase()}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Pokemon not found');
+                }
+                return response.json();
+            })
+            .then(data => {
+                display(data);
+            })
+            .catch(error => {
+                document.getElementById('pokemon-details').innerHTML = `<p style="color:green;">${error.message}</p>`;
+            });
+    }
+    function display(data) {
+        const detail=document.getElementById('pokemon-details');
+        detail.innerHTML=`
+            <h3>${data.name.toUpperCase()}</h3>
+            <p><strong>Height:</strong> ${data.height}</p>
+            <p><strong>Weight:</strong> ${data.weight}</p>
+            <p><strong>Types:</strong> ${data.types.map(type => type.type.name).join(', ')}</p>
+            <p><strong>Abilities:</strong> ${data.abilities.map(ability => ability.ability.name).join(', ')}</p>
+            <p><strong>Slot:</strong> ${data.types[0].slot}</p>
+
+
+        `;
+    }
+</script>
+
+</body>
+</html>

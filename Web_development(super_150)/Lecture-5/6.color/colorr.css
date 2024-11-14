@@ -1,0 +1,13 @@
+/* h1
+{
+    color: rgb(22,2,3);
+} */
+/* h1
+{
+    color: rgba(199, 22, 222,0);
+} */
+/* alpha value is declared as a decimal number from 0 to 1, where 0 is fully transparent and 1 is fully opaque. */
+h1
+{
+    color:#11fc79ff;
+}

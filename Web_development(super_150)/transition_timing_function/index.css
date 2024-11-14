@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+section:hover div{
+    width: 100vw;
+    transition-duration: 3s; 
+
+}
+#div1{
+    transition-timing-function:linear;
+}
+#div2{
+    transition-timing-function: ease-in;
+}
+#div3{
+    transition-timing-function: ease-out;
+}
+#div4{
+    transition-timing-function: ease-in-out;
+}

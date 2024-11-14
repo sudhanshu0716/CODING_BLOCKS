@@ -1,0 +1,26 @@
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo img{
+    height: 25px;
+    width: 25px;
+    
+}
+#logo{
+    justify-content: center;
+}
+.home{
+    display: flex;
+    
+}
+.home1{
+    margin-right: 200px;
+    margin-top: 0px;
+}
+ul{
+    list-style-type: none;
+}
+.explore,.homealone{
+    display: flex;
+}

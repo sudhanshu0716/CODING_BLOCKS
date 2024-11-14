@@ -1,0 +1,30 @@
+h1
+{
+    color: aqua;
+}
+h1:hover
+{
+    color: bisque;
+    font-size: 15px;
+}
+input
+{
+    background-color: red;
+}
+input:focus
+{
+    background-color: pink;
+}
+a
+{
+    color: aquamarine;
+}
+a:active
+{
+    color: black;
+}
+a:visited
+{
+    color: tomato;
+}
+/* these are pseudo classes */

@@ -1,0 +1,6 @@
+ul>li
+{
+    font-size: 200%; 
+    /* by default given size is 16 */
+    /* it is called snowball effect */
+}

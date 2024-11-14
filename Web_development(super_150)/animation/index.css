@@ -1,0 +1,79 @@
+section{
+    display: flex;
+    
+    
+}
+.box{
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    
+}
+.box1{
+    width: 10px;
+    height: 10px;
+    background-color: crimson;
+
+}
+.box{
+    animation-name: abc;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+.box1{
+    animation-name: abcd;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+
+}
+/* @keyframes abc{
+    from{        
+        height: 100px;
+    }
+    to{
+        height: 500px;
+    }
+} */
+@keyframes abc{
+    0%{        
+        height: 100px;
+    }
+    30%{
+        height: 500px;
+    }
+    40%{
+        height: 50px;
+        
+    }
+    70%{
+        height: 600px;
+    }
+    100%{
+        height: 100px;
+        width: 40px;
+    }
+}
+@keyframes abcd{
+    0%{        
+        height: 10px;
+    }
+    30%{
+        height: 200px;
+    }
+    40%{
+        height: 70px;
+        
+    }
+    70%{
+        height: 400px;
+    }
+    100%{
+        height: 80px;
+        width: 40px;
+    }
+}
+/* animation fill mode animation ke ending mai kya krna h uske liye use hoti h */
+/* animation playstate ke ander properties se aniamtion ko starting m properties de skte h   */
+/* animation playstate startim=ng m kya krna h uske liye use hota h */

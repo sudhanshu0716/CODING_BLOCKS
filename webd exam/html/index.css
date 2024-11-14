@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    color: azure;
+    padding: 0px;
+}
+#div2{
+    background-color: grey;
+}
+#h1{
+    color: violet;
+    text-align: center;
+}
+#h3{
+    color: black;
+    text-align: center;
+}
+#div1{
+    position: fixed;
+    background-color: bisque;
+
+}
+#section1{
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+

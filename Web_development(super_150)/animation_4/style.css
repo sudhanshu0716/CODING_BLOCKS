@@ -1,0 +1,36 @@
+.load{
+    height: 100px;
+    width: 100px;
+    border-top: 10px solid rgb(232, 100, 100);
+    border-bottom: 10px solid rgb(217, 150, 150);
+    border-left: 10px solid rgb(218, 210, 210);
+    border-right: 10px solid  rgb(228, 114, 114) ;
+    border-radius: 50%;
+    animation: Spin infinite alternate;
+    animation-duration: 2s;
+}
+*{
+    background-color:rgb(218, 210, 210) ;
+}
+@keyframes Spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg) translate3d(40deg);
+    }
+    50%{
+        transform: rotate(180deg);
+
+    }
+    75%{
+        transform: rotate(270deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+
+
+}

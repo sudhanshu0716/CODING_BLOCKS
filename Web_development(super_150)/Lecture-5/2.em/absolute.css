@@ -1,0 +1,7 @@
+ul>li
+{
+    font-size: 2em; 
+    /* by default given size of ul  is 16  so font 
+    size of li becomes 32 and so on for others*/
+    /* it is called snowball effect */
+}

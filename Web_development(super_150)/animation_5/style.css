@@ -1,0 +1,27 @@
+*{
+    background-color: #142d4c;
+    margin: 0;
+}
+
+.container-fluid {
+    display: flex;
+    height: 30px;
+    background-color: #9fd3c7;
+    margin-top: 0px;
+    justify-items: auto;
+}
+#logo{
+    justify-content: left;
+    background-color: #9fd3c7;
+}
+#exlogo{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9fd3c7;
+}
+.container-fluid i{
+    background-color: #9fd3c7;
+}
+#exlogo>i{
+    background-color: #9fd3c7;
+}
